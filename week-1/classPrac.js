@@ -4,4 +4,3 @@ const crypto = require('crypto');
 const input = 'pk6862';
 const hash = crypto.createHash('sha256').update(input).digest('hex');
 console.log(hash);
-
